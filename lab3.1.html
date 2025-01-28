@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee Order Form</title>
+</head>
+<body>
+  <h1>Coffee Order Form</h1>
+  <form action="https://www.w3schools.com/action_page.php" method="get">
+    <label for="customer-name">Customer Name:</label>
+    <input type="text" id="customer-name" name="customer-name" required>
+    <br><br>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required>
+    <br><br>
+
+    <label for="coffee-type">Coffee Type:</label>
+    <select id="coffee-type" name="coffee-type">
+      <option value="latte">Latte</option>
+      <option value="cappuccino">Cappuccino</option>
+      <option value="americano">Americano</option>
+      <option value="espresso">Espresso</option>
+    </select>
+    <br><br>
+
+    <p>Size:</p>
+    <input type="radio" id="small" name="size" value="small">
+    <label for="small">Small</label><br>
+    <input type="radio" id="medium" name="size" value="medium">
+    <label for="medium">Medium</label><br>
+    <input type="radio" id="large" name="size" value="large">
+    <label for="large">Large</label>
+    <br><br>
+
+    <p>Extras:</p>
+    <input type="checkbox" id="whipped-cream" name="extras" value="whipped-cream">
+    <label for="whipped-cream">Whipped Cream</label><br>
+    <input type="checkbox" id="extra-shot" name="extras" value="extra-shot">
+    <label for="extra-shot">Extra Shot</label><br>
+    <input type="checkbox" id="almond-milk" name="extras" value="almond-milk">
+    <label for="almond-milk">Almond Milk</label>
+    <br><br>
+
+    <label for="special-instructions">Special Instructions:</label>
+    <textarea id="special-instructions" name="special-instructions" rows="4" cols="30"></textarea>
+    <br><br>
+
+    <button type="submit">Submit Order</button>
+  </form>
+</body>
+</html>
