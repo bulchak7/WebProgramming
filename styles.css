@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+  }
+  
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 5px red;
+  }
+  
+h2 {
+    font-size: 2rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+  }
+  
+p {
+    text-align: justify;
+    line-height: 1.6;
+  }
+  
+section:nth-child(3) p {
+    text-transform: capitalize;
+  }
+  
+section:nth-child(4) p {
+    text-shadow: 1px 1px 3px gray;
+  }
+  
+ul {
+    list-style-type: square;
+  }
+  
+ol {
+    list-style-type: upper-roman;
+  }
+  
+li {
+    margin: 1rem 0;
+  }
+  
+footer {
+    text-align: center;
+  }
